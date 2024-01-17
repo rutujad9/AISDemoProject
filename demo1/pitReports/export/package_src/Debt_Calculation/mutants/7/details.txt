@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=package_src.Debt_Calculation, method=monthly_amount, methodDesc=(DD)D], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Debt_Calculation.java, block=[0], lineNumber=25, description=Replaced double division with multiplication, testsInOrder=[]]

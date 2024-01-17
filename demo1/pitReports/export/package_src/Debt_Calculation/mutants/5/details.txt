@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=package_src.Debt_Calculation, method=main, methodDesc=([Ljava/lang/String;)V], indexes=[63], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Debt_Calculation.java, block=[10], lineNumber=18, description=removed call to java/io/PrintStream::println, testsInOrder=[]]

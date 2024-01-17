@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="0" timestamp="1705523828654" analysisTimestamp="1705523828658" release="">
+  <Project projectName="">
+    <Jar>/Users/rutuu/git/aisDemo1/demo1/bin/package_src/Debt_Calculation.class</Jar>
+    <AuxClasspathEntry>/Users/rutuu/git/aisDemo1/demo1/lib/Regex.jar</AuxClasspathEntry>
+    <SrcDir>/Users/rutuu/git/aisDemo1/demo1/src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="package_src.Debt_Calculation">
+      <SourceLine classname="package_src.Debt_Calculation" start="4" end="40" sourcefile="Debt_Calculation.java" sourcepath="package_src/Debt_Calculation.java"/>
+    </Class>
+    <Method classname="package_src.Debt_Calculation" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="package_src.Debt_Calculation" start="7" end="20" startBytecode="0" endBytecode="256" sourcefile="Debt_Calculation.java" sourcepath="package_src/Debt_Calculation.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="571" end="572" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="package_src.Debt_Calculation" start="7" end="7" startBytecode="7" endBytecode="7" sourcefile="Debt_Calculation.java" sourcepath="package_src/Debt_Calculation.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 17 Jan 2024 21:37:08 +0100" total_classes="1" referenced_classes="24" total_bugs="1" total_size="29" num_packages="1" java_version="21.0.1" vm_version="21.0.1" cpu_seconds="3.11" clock_seconds="1.40" peak_mbytes="145.78" alloc_mbytes="2048.00" gc_seconds="0.02" priority_1="1">
+    <PackageStats package="package_src" total_bugs="1" total_types="1" total_size="29" priority_1="1">
+      <ClassStats class="package_src.Debt_Calculation" sourceFile="Debt_Calculation.java" interface="false" size="29" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="269" invocations="535" avgMicrosecondsPerInvocation="504" maxMicrosecondsPerInvocation="16177" standardDeviationMicrosecondsPerInvocation="1427"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="144" invocations="24" avgMicrosecondsPerInvocation="6018" maxMicrosecondsPerInvocation="45957" standardDeviationMicrosecondsPerInvocation="10416"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="115" invocations="24" avgMicrosecondsPerInvocation="4814" maxMicrosecondsPerInvocation="106528" standardDeviationMicrosecondsPerInvocation="21213"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="100" invocations="1" avgMicrosecondsPerInvocation="100773" maxMicrosecondsPerInvocation="100773" standardDeviationMicrosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="89" invocations="24" avgMicrosecondsPerInvocation="3723" maxMicrosecondsPerInvocation="30913" standardDeviationMicrosecondsPerInvocation="8120"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="45" invocations="124" avgMicrosecondsPerInvocation="369" maxMicrosecondsPerInvocation="3875" standardDeviationMicrosecondsPerInvocation="560"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="39" invocations="498" avgMicrosecondsPerInvocation="78" maxMicrosecondsPerInvocation="5849" standardDeviationMicrosecondsPerInvocation="302"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="38" invocations="24" avgMicrosecondsPerInvocation="1610" maxMicrosecondsPerInvocation="21455" standardDeviationMicrosecondsPerInvocation="4457"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="38" invocations="24" avgMicrosecondsPerInvocation="1590" maxMicrosecondsPerInvocation="33123" standardDeviationMicrosecondsPerInvocation="6581"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

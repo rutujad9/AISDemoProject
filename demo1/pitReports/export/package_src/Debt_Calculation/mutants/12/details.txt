@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=package_src.Debt_Calculation, method=monthly_amount, methodDesc=(DD)D], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Debt_Calculation.java, block=[1], lineNumber=26, description=negated conditional, testsInOrder=[]]

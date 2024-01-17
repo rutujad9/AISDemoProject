@@ -1,0 +1,113 @@
+// class version 61.0 (61)
+// access flags 0x21
+public class package_src/Debt_CalculationTest {
+
+  // compiled from: Debt_CalculationTest.java
+
+  // access flags 0x1
+  public <init>()V
+   L0
+    LINENUMBER 7 L0
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+    RETURN
+   L1
+    LOCALVARIABLE this Lpackage_src/Debt_CalculationTest; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public testMonthly_amount()V
+  @Lorg/junit/Test;()
+   L0
+    LINENUMBER 11 L0
+    NEW package_src/Debt_Calculation
+    DUP
+    INVOKESPECIAL package_src/Debt_Calculation.<init> ()V
+    ASTORE 1
+   L1
+    LINENUMBER 12 L1
+    DCONST_0
+    ALOAD 1
+    POP
+    DCONST_0
+    DCONST_0
+    INVOKESTATIC package_src/Debt_Calculation.monthly_amount (DD)D
+    INVOKESTATIC org/junit/jupiter/api/Assertions.assertEquals (DD)V
+   L2
+    LINENUMBER 13 L2
+    DCONST_0
+    ALOAD 1
+    POP
+    LDC -100000.0
+    LDC -12.0
+    INVOKESTATIC package_src/Debt_Calculation.monthly_amount (DD)D
+    INVOKESTATIC org/junit/jupiter/api/Assertions.assertEquals (DD)V
+   L3
+    LINENUMBER 14 L3
+    LDC 1000.0
+    ALOAD 1
+    POP
+    LDC 100000.0
+    LDC 12.0
+    INVOKESTATIC package_src/Debt_Calculation.monthly_amount (DD)D
+    INVOKESTATIC org/junit/jupiter/api/Assertions.assertEquals (DD)V
+   L4
+    LINENUMBER 15 L4
+    RETURN
+   L5
+    LOCALVARIABLE this Lpackage_src/Debt_CalculationTest; L0 L5 0
+    LOCALVARIABLE dc Lpackage_src/Debt_Calculation; L1 L5 1
+    MAXSTACK = 6
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public testTotal_amount()V
+  @Lorg/junit/Test;()
+   L0
+    LINENUMBER 19 L0
+    NEW package_src/Debt_Calculation
+    DUP
+    INVOKESPECIAL package_src/Debt_Calculation.<init> ()V
+    ASTORE 1
+   L1
+    LINENUMBER 20 L1
+    DCONST_0
+    ALOAD 1
+    POP
+    DCONST_0
+    DCONST_0
+    ICONST_0
+    INVOKESTATIC package_src/Debt_Calculation.total_amount (DDI)D
+    POP2
+    POP2
+   L2
+    LINENUMBER 21 L2
+    DCONST_0
+    ALOAD 1
+    POP
+    LDC -100000.0
+    LDC -12.0
+    BIPUSH -16
+    INVOKESTATIC package_src/Debt_Calculation.total_amount (DDI)D
+    INVOKESTATIC org/junit/jupiter/api/Assertions.assertEquals (DD)V
+   L3
+    LINENUMBER 22 L3
+    LDC 116000.0
+    ALOAD 1
+    POP
+    LDC 100000.0
+    LDC 12.0
+    BIPUSH 16
+    INVOKESTATIC package_src/Debt_Calculation.total_amount (DDI)D
+    INVOKESTATIC org/junit/jupiter/api/Assertions.assertEquals (DD)V
+   L4
+    LINENUMBER 23 L4
+    RETURN
+   L5
+    LOCALVARIABLE this Lpackage_src/Debt_CalculationTest; L0 L5 0
+    LOCALVARIABLE dc Lpackage_src/Debt_Calculation; L1 L5 1
+    MAXSTACK = 7
+    MAXLOCALS = 2
+}
+

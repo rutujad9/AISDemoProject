@@ -22,7 +22,7 @@ pipeline {
         {
             steps 
             {
-                sh "ant -f demo1/build.xml AdditionTest"
+                sh "ant -f demo1/build.xml Debt_CalculationTest"
             }
         }
         stage('Junit reports') 
