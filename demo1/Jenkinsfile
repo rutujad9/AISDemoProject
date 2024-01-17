@@ -4,13 +4,6 @@ pipeline {
         ant 'Ant'
     }
     stages {
-        stage('Print Environment') {
-            steps {
-                script {
-                    sh 'env'
-                }
-            }
-        }
         stage('Clean') 
         {
             steps 
